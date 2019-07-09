@@ -1,6 +1,6 @@
-package com.example.submoduleandroidapp
+package com.example.algorithm
 
-class Algorithm {
+class Algo {
 
     companion object {
         fun sum(a: Int, b: Int): Int {

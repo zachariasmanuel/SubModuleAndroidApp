@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.TextView
+import com.example.algorithm.Algo
 
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         textView = findViewById(R.id.text_view)
-        textView.text = "Answer is "+Algorithm.sum(3,5)
+        textView.text = "Answer is "+ Algo.sum(3,5)
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)

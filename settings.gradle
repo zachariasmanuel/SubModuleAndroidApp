@@ -1,1 +1,1 @@
-include ':submodule'
+include ':app', ':algorithm'
